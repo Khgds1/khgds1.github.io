@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'sobre', component: AboutComponent},
   { path: 'donate', component: SupportComponent},
   { path: 'social', component: SocialComponent},
-  { path: 'error', component: ErrorComponent}
+  { path: '**', component: ErrorComponent}
 ];
 
 @NgModule({
