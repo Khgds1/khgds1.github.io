@@ -15,6 +15,7 @@ import { AmiicComponent } from './pages/projects/amiic/amiic.component';
 import { AboutComponent } from './pages/about/about.component';
 import { SupportComponent } from './pages/support/support.component';
 import { SocialComponent } from './pages/social/social.component';
+import { ErrorComponent } from './pages/error/error.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { SocialComponent } from './pages/social/social.component';
     AmiicComponent,
     AboutComponent,
     SupportComponent,
-    SocialComponent
+    SocialComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

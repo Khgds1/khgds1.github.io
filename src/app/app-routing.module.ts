@@ -5,7 +5,8 @@ import { ProjectsComponent} from './pages/projects/projects.component';
 import { AmiicComponent} from './pages/projects/amiic/amiic.component';
 import { AboutComponent} from './pages/about/about.component';
 import { SupportComponent} from './pages/support/support.component';
-import {SocialComponent} from './pages/social/social.component'
+import {SocialComponent} from './pages/social/social.component';
+import {ErrorComponent} from './pages/error/error.component'
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'amiic', component: AmiicComponent},
   { path: 'sobre', component: AboutComponent},
   { path: 'donate', component: SupportComponent},
-  { path: 'social', component: SocialComponent}
+  { path: 'social', component: SocialComponent},
+  { path: 'error', component: ErrorComponent}
 ];
 
 @NgModule({
