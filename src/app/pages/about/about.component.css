@@ -1,0 +1,21 @@
+.card {
+    max-width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    background-color: black;
+}
+.name {
+    text-align: center;
+    color: white;
+}
+.pic {
+    align-content: center;
+}
+.title {
+    color: white;
+
+}
+.text {
+    color: white;
+}
