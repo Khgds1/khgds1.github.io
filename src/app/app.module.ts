@@ -16,6 +16,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { SupportComponent } from './pages/support/support.component';
 import { SocialComponent } from './pages/social/social.component';
 import { ErrorComponent } from './pages/error/error.component';
+import { NintendoComponent } from './pages/social/nintendo/nintendo.component';
+import { SendfcComponent } from './pages/social/nintendo/sendfc/sendfc.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { ErrorComponent } from './pages/error/error.component';
     AboutComponent,
     SupportComponent,
     SocialComponent,
-    ErrorComponent
+    ErrorComponent,
+    NintendoComponent,
+    SendfcComponent
   ],
   imports: [
     BrowserModule,

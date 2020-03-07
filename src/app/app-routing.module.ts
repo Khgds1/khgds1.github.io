@@ -6,7 +6,9 @@ import { AmiicComponent} from './pages/projects/amiic/amiic.component';
 import { AboutComponent} from './pages/about/about.component';
 import { SupportComponent} from './pages/support/support.component';
 import {SocialComponent} from './pages/social/social.component';
-import {ErrorComponent} from './pages/error/error.component'
+import {ErrorComponent} from './pages/error/error.component';
+import {NintendoComponent} from './pages/social/nintendo/nintendo.component';
+import {SendfcComponent} from './pages/social/nintendo/sendfc/sendfc.component'
 
 
 const routes: Routes = [
@@ -17,6 +19,8 @@ const routes: Routes = [
   { path: 'sobre', component: AboutComponent},
   { path: 'donate', component: SupportComponent},
   { path: 'social', component: SocialComponent},
+  { path: 'nintendo', component: NintendoComponent},
+  { path: 'sendfc', component: SendfcComponent},
   { path: '**', component: ErrorComponent}
 ];
 
